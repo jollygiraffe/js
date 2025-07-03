@@ -18,7 +18,7 @@ let obj = {
         "is_sandbox": false,
         "expires_date": "2099-03-27T07:52:54Z",
         "original_purchase_date": "2025-06-02T07:52:55Z",
-        "purchase_date": "2020-03-27T07:52:54Z"
+        "purchase_date": "2025-06-02T07:52:55Z"
       }
     },
     "entitlements": {
@@ -28,13 +28,13 @@ let obj = {
         "is_sandbox": false,
         "expires_date": "2099-03-27T07:52:54Z",
         "original_purchase_date": "2025-06-02T07:52:55Z",
-        "purchase_date": "2020-03-27T07:52:54Z",
+        "purchase_date": "2025-06-02T07:52:55Z",
         "product_identifier": "7S8W4W365S.ai.perplexity.mac"
       }
     },
     "original_purchase_date": "2025-06-02T07:52:55Z",
     "original_app_user_id": "$RCAnonymousID:06923c3f1dfc4f23b1b56c9e24dbdffc",
-    "last_seen": "2024-01-07T21:42:02Z"
+    "last_seen": "2025-06-02T07:52:55Z"
   }
 }
 
