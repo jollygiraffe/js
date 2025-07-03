@@ -37,5 +37,18 @@ let obj = {
     "last_seen": "2025-06-02T07:52:55Z"
   }
 }
+{
+      "metadata": null,
+      "identifier": "max_2023-09-22",
+      "description": "default max tier offering",
+      "packages": [
+        {
+          "platform_product_identifier": "mac_max_200_m",
+          "identifier": "$rc_monthly"
+        }
+      ]
+    }
+  ],
+  "current_offering_id": "pro_2023-09-22"
 
 $done({response: {body: JSON.stringify(obj), status: 200}});
