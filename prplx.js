@@ -38,4 +38,5 @@ let obj = {
   subscription_status: "PRO"
 };
 
-$done({ body: JSON.stringify(obj) });
+$done({ body: '{"test":"ok"}' });
+
