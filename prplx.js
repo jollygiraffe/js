@@ -1,15 +1,11 @@
 let obj = {
   "request_date_ms": 1704664060864,
-  "request_date":"2025-06-03T07:52:55Z",
+  "request_date": "2025-06-03T07:52:55Z",
   "subscriber": {
-    "non_subscriptions": {
-
-    },
+    "non_subscriptions": {},
     "first_seen": "2025-06-02T07:52:55Z",
-    "original_application_version": “62”,
-    "other_purchases": {
-
-    },
+    "original_application_version": "62",
+    "other_purchases": {},
     "management_url": null,
     "subscriptions": {
       "7S8W4W365S.ai.perplexity.mac": {
@@ -35,9 +31,9 @@ let obj = {
     "original_purchase_date": "2025-06-02T07:52:55Z",
     "original_app_user_id": "$RCAnonymousID:06923c3f1dfc4f23b1b56c9e24dbdffc",
     "last_seen": "2025-06-02T07:52:55Z"
-  }
-}
-{
+  },
+  "offerings": [
+    {
       "metadata": null,
       "identifier": "max_2023-09-22",
       "description": "default max tier offering",
@@ -50,5 +46,6 @@ let obj = {
     }
   ],
   "current_offering_id": "pro_2023-09-22"
+};
 
 $done({response: {body: JSON.stringify(obj), status: 200}});
