@@ -4,11 +4,11 @@ let obj = {
     "subscriber": {
         "non_subscriptions": {},
         "first_seen": "2024-01-07T21:42:02Z",
-        "original_application_version": "1",
+        "original_application_version": "62",
         "other_purchases": {},
         "management_url": null,
         "subscriptions": {
-            "7S8W4W365S.ai.perplexity.mac": {
+            "ai.perplexity.mac": {
                 "ownership_type": "PURCHASED",
                 "store": "app_store",
                 "is_sandbox": false,
@@ -25,7 +25,7 @@ let obj = {
                 "expires_date": "2099-03-27T07:52:54Z",
                 "original_purchase_date": "2020-03-27T07:52:55Z",
                 "purchase_date": "2020-03-27T07:52:54Z",
-                "product_identifier": "7S8W4W365S.ai.perplexity.mac"
+                "product_identifier": "ai.perplexity.mac"
             }
         },
         "original_purchase_date": "2024-01-07T21:38:41Z",
