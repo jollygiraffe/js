@@ -1,0 +1,6 @@
+var obj = JSON.parse($response.body);
+
+obj.subscription_source = "PRO";
+obj.subscription_status = "PRO";
+
+$done({body : JSON.stringify(obj)});
