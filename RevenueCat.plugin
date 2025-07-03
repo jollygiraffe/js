@@ -28,7 +28,8 @@ RevenueCatScriptEnable-ddgksf2013 = switch, true, false, tag = RevenueCat-ddgksf
 RevenueCatScriptEnable-Yu9191 = switch, true, false, tag = RevenueCat-Yu9191, desc = Whether to enable the script of Yu9191 to unlock the RevenueCat series
 
 [Rewrite]
-http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ 
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ script-path=https://raw.githubusercontent.com/jollygiraffe/js/main/prplx.js
+
 
 [Script]
 # chxm1023
