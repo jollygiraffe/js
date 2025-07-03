@@ -52,4 +52,5 @@ let obj = {
   "subscription_status": "PRO"
 };
 
-$done({ response: { body: JSON.stringify(obj), status: 200 } });
+$done({ body: JSON.stringify(obj) });
+
