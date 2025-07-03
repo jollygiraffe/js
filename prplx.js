@@ -48,4 +48,8 @@ let obj = {
   "current_offering_id": "pro_2023-09-22"
 };
 
-$done({response: {body: JSON.stringify(obj), status: 200}});
+// Add/overwrite the requested fields at the top level
+obj.subscription_source = "PRO";
+obj.subscription_status = "PRO";
+
+$done({ response: { body: JSON.stringify(obj), status: 200 } });
