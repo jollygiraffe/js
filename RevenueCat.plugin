@@ -28,7 +28,7 @@ RevenueCatScriptEnable-ddgksf2013 = switch, true, false, tag = RevenueCat-ddgksf
 RevenueCatScriptEnable-Yu9191 = switch, true, false, tag = RevenueCat-Yu9191, desc = Whether to enable the script of Yu9191 to unlock the RevenueCat series
 
 [Rewrite]
-^https:\/\/api\.lianjiu\.fun\/app\/api\/v1\/profile reject
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ 
 
 [Script]
 # chxm1023
