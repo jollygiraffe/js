@@ -49,4 +49,4 @@ http-response ^https:\/\/(api\.revenuecat\.com|api\.rc-backup\.com)\/.+\/(receip
 http-request ^https:\/\/(api\.revenuecat\.com|api\.rc-backup\.com)\/.+\/(receipts$|subscribers\/[^/]+$) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/Revenuecat.js, requires-body = false, tag = [RevenueCat]会员解锁@Yu9191, enable={RevenueCatScriptEnable-Yu9191}
 
 [MitM]
-hostname = api.revenuecat.com, api.rc-backup.com, api.lianjiu.fun
+hostname = api.revenuecat.com, api.rc-backup.com, ai.perplexity.mac
